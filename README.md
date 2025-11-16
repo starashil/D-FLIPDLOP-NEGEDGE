@@ -35,12 +35,12 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 5. Testbench: Test with various D and c1k values to verify data storage functionality.
 
 **PROGRAM**
-
+```
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 Developed by: S STAR ASHIL
 RegisterNumber: 212224040329
 */
-
+```
 ```
 module exp8(D,c1k,Q,Qbar);
 input D,c1k;
